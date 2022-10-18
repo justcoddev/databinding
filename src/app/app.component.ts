@@ -29,5 +29,7 @@ export class AppComponent {
   cambiarTexto(): void {
     this.texto = "En el proximo video vamos a ver Two Way Data-Binding"
   }
+
+  // TWO WAY DATA BINDING
   texto2 = ''
 }
