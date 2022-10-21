@@ -15,7 +15,7 @@ export class AppComponent {
   imgSrc = 'https://angular.io/assets/images/logos/angular/angular.png'
 
   constructor() {
-    setInterval(() => this.nombre = 'Pool', 3000); //INTERPOLACION
+    setInterval(() => this.nombre = 'Paul', 3000); //INTERPOLACION
     setInterval(() => this.deshabilitado = false, 3000); //PROPERTY BINDING
   }
 
