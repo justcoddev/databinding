@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "HolaMundo": {
+    "databinding": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "HolaMundo:build:production"
+              "browserTarget": "databinding:build:production"
             },
             "development": {
-              "browserTarget": "HolaMundo:build:development"
+              "browserTarget": "databinding:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "HolaMundo:build"
+            "browserTarget": "databinding:build"
           }
         },
         "test": {
